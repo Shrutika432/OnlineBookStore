@@ -40,7 +40,7 @@
             android:text="username" />
 
         <EditText
-            android:id="@+id/etusername"
+            android:id="@+id/uname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -59,7 +59,7 @@
             android:text="Password" />
 
         <EditText
-            android:id="@+id/etpwd"
+            android:id="@+id/upwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
