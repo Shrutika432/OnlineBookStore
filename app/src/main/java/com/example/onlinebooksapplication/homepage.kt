@@ -70,7 +70,7 @@ class homepage : AppCompatActivity() {
                             var intent = Intent(c,adminDashboard::class.java)
                             startActivity(intent)
                         }else{
-//                            Log.d("RESULT", "FAIL")
+                            Log.d("RESULT", "FAIL")
                             runOnUiThread {
                                 Toast.makeText(c, message.toString(), Toast.LENGTH_LONG).show()
                             }
