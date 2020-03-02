@@ -30,15 +30,15 @@
             android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/tvfullname"
+            android:id="@+id/uidtv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:textStyle="bold"
-            android:text="fullname" />
+            android:text="Uid"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/etfullname"
+            android:id="@+id/uid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -49,34 +49,34 @@
             android:inputType="textPersonName" />
 
         <TextView
-            android:id="@+id/tvpwd"
-            android:textStyle="bold"
+            android:id="@+id/unametv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Password" />
+            android:text="uname"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittextbg"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:inputType="textPersonName|textPassword"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/upwdtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="upwd"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/upwd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:cursorVisible="true"
-            android:textSize="30dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/edittextbg"
-            android:inputType="textPassword" />
-
-        <TextView
-            android:id="@+id/tvemail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:textStyle="bold"
-            android:text="email" />
-
-        <EditText
-            android:id="@+id/etemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -87,7 +87,7 @@
             android:inputType="textEmailAddress" />
 
         <TextView
-            android:id="@+id/tvmobile"
+            android:id="@+id/umobiletv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -95,7 +95,7 @@
             android:text="mobile" />
 
         <EditText
-            android:id="@+id/etmobile"
+            android:id="@+id/umobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

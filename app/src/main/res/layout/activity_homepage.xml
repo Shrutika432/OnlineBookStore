@@ -51,7 +51,7 @@
             android:inputType="textPersonName" />
 
         <TextView
-            android:id="@+id/tvpwd"
+            android:id="@+id/upwdtv"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
